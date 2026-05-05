@@ -6,7 +6,6 @@ import {
   CheckCircle2,
   Clipboard,
   Dumbbell,
-  GithubIcon,
   Globe,
   Info,
   KeyRound,
@@ -259,7 +258,7 @@ export default function App() {
 
         <section className="setup-grid">
           <div className="steps-stack">
-            <SetupStep number="1" icon={GithubIcon} title="Deploy">
+            <SetupStep number="1" icon={Globe} title="Deploy">
               Push this package to your public <code>Gym_dashboard</code> repository and set Pages source to <strong>GitHub Actions</strong>.
             </SetupStep>
             <SetupStep number="2" icon={Zap} title="Create a serverless webhook receiver">
